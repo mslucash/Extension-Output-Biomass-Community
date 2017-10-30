@@ -31,14 +31,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Edu.Wisc.Forest.Flel.Util" />
-    <Reference Include="Landis.Core" />
-    <Reference Include="Landis.Library.AgeOnlyCohorts" />
-    <Reference Include="Landis.Library.Biomass-v1" />
-    <Reference Include="Landis.Library.BiomassCohorts-v2" />
-    <Reference Include="Landis.Library.Cohorts" />
-    <Reference Include="Landis.Library.Metadata" />
-    <Reference Include="Landis.SpatialModeling" />
+    <Reference Include="Edu.Wisc.Forest.Flel.Util">
+      <HintPath>..\..\..\..\..\..\..\Program Files\LANDIS-II\v6\bin\6.1\Edu.Wisc.Forest.Flel.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Core">
+      <HintPath>..\..\..\..\..\..\..\Program Files\LANDIS-II\v6\bin\6.1\Landis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.AgeOnlyCohorts">
+      <HintPath>..\..\..\..\..\..\..\Program Files\LANDIS-II\v6\bin\extensions\Landis.Library.AgeOnlyCohorts.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.Biomass-v1">
+      <HintPath>..\..\..\..\..\..\..\Program Files\LANDIS-II\v6\bin\extensions\Landis.Library.Biomass-v1.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.BiomassCohorts-v2">
+      <HintPath>..\..\..\..\..\..\..\Program Files\LANDIS-II\v6\bin\extensions\Landis.Library.BiomassCohorts-v2.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.Cohorts">
+      <HintPath>..\..\..\..\..\..\..\Program Files\LANDIS-II\v6\bin\extensions\Landis.Library.Cohorts.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.Library.Metadata">
+      <HintPath>..\..\..\..\..\..\..\Program Files\LANDIS-II\v6\bin\extensions\Landis.Library.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="Landis.SpatialModeling">
+      <HintPath>..\..\..\..\..\..\..\Program Files\LANDIS-II\v6\bin\6.1\Landis.SpatialModeling.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
